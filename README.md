@@ -1,18 +1,25 @@
-## Getting Started
+# Descrição
+___________________________________________________
+Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancária, foi identificada a necessidade de uma nova funcionalidade para otimização dos processos e melhorias da experiência dos usuários. Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada aos usuários. Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangíveis e dentre outros.
+__________________________________________________
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Regra de Formatação:  Considere apenas  uma casa decimal  para esse desafio.
 
-## Folder Structure
+- Saída
+Seu programa deve exibir uma lista de Ativos organizados em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
 
-The workspace contains two folders by default, where:
+- Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas.
+-se de testar seu programa com esses exemplos e com outros casos possíveis.
+_______________________________
+<b>Entrada:</b>                   	  
+3                                        
+<p>Financiamento de Imóvel </p>
+<p>Depósito </p>
+<p>Reservas Bancárias</p>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<b>Saída:</b> 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<p>Depósito</p>
+<p>Financiamento de Imóvel</p>
+<p>Reservas Bancárias</p>
